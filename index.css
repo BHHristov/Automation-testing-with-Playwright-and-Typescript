@@ -1,0 +1,11 @@
+* {
+    color: red;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+main div h2,
+main div p {
+    font-style: italic;
+}
