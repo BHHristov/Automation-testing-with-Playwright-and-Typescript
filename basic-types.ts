@@ -26,4 +26,31 @@ let devide: number = numOne / numTwo;
 
 let areEqual: boolean = numOne === numTwo;
 console.log("areEqual", areEqual);
- 
+
+let isGreater: boolean = numOne > numTwo;
+
+console.log("isGreater", isGreater);
+
+//logical operators
+
+let areEqualTo: boolean = numOne === 10 && numTwo === 6;
+let isAnyNumEqualTo: boolean = numOne === 10 || numTwo === 6;
+
+console.log("areEqualTo", areEqual);
+console.log("isAnyNumEqualTo", isAnyNumEqualTo);
+
+//ternary operator
+
+let positiveNumComparison: string = numOne > 0 ? `The ${numOne} is positive` : `The ${numOne} is negative`
+console.log(positiveNumComparison);
+
+//if/else statement
+
+
+if(numOne > 3){
+    console.log("numOne is greater than 3");
+
+}else{
+    console.log("numOne is not greater than 3");
+}
+
