@@ -1,11 +1,42 @@
-* {
-    color: red;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.site-nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
-main div h2,
-main div p {
-    font-style: italic;
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+  text-align: center;
+}
+
+
+.site-footer {
+  border-top: 1px solid #ddd;
+  padding: 12px 0;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+
+.page-content {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+
+.about .page-content {
+  text-align: center;
 }
