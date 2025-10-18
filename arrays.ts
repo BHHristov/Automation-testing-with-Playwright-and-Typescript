@@ -11,6 +11,9 @@ stringArray[2]; //Georgi
 console.log(stringArray[0]);
 console.log(stringArray[1]);
 console.log(stringArray[2]);
+console.log();
+
+
 
 
 //access array length
@@ -30,3 +33,23 @@ let checkTypeOf = combinedArray.map((element: number | string) => {
 console.log(multiplyNums);
 console.log(mapNames);
 console.log(checkTypeOf);
+
+let positiveNums: number[] =[2,3,4,5,6];
+let filteredArr: number[] = positiveNums.filter((indexValue: number) => indexValue > 3);
+console.log("filteredArr", filteredArr);
+
+let sortNums: number[] = [100,2,30,5,41,6];
+let sortedNums = sortNums.sort((a: number, b: number) => a-b);
+console.log(sortedNums);
+
+sortedNums.push(250);
+console.log(sortedNums);
+
+sortedNums.pop();
+console.log(sortedNums);
+
+sortedNums.shift();
+console.log(sortedNums);
+
+sortedNums.unshift(300);
+console.log(sortedNums);
