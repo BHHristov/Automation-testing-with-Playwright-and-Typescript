@@ -1,3 +1,4 @@
+
 /*Write a function named “findLargest” that takes three numbers as parameters and returns the largest of them.
 Use if/else statement to find the largest number. Log the result. */
  function findLargest(numOne: number, numTwo: number, numThree: number): string{
